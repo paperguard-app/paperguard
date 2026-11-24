@@ -2,7 +2,7 @@
 
 **Audit `.bib` citation conflicts, dangling `\cite{}` / `[@key]` references, and stock LLM prose clichés in LaTeX & Markdown manuscripts — read-only, zero pip dependencies.**
 
-🌐 **Website & Interactive Demo**: [https://paperguard-app.github.io/](https://paperguard-app.github.io/) · ⬇️ **[Download Free Mac/Win App (ZIP)](https://github.com/paperguard-app/paperguard/releases/latest/download/PaperGuard-Lite-v2.5.0.zip)** · ⚡ **[Unlock PaperGuard Pro ($29)](https://zhangx2.gumroad.com/l/paperguard-pro)**
+🌐 **Website & Interactive Demo**: [https://paperguard-app.github.io/](https://paperguard-app.github.io/) ·  **[Download Mac App (.dmg)](https://github.com/paperguard-app/paperguard/releases/latest/download/PaperGuard-Lite-v2.5.0-macOS.dmg)** · ⬇️ **[Windows / Linux (.zip)](https://github.com/paperguard-app/paperguard/releases/latest/download/PaperGuard-Lite-v2.5.0.zip)** · ⚡ **[Unlock PaperGuard Pro ($29)](https://zhangx2.gumroad.com/l/paperguard-pro)**
 
 ![PaperGuard Pro Cover](assets/paperguard-hero.png)
 
@@ -30,11 +30,11 @@
 
 ## Quickstart
 
-### Option 1: Double-Click Local App (macOS & Windows — No Terminal Needed)
+### Option 1: Native Desktop App (macOS `.dmg` & Windows `.zip` — No Terminal Needed)
 
-1. **macOS**: Double-click `Start-PaperGuard-Mac.command` *(first time on macOS if Gatekeeper prompts: open **System Settings → Privacy & Security → Open Anyway**, or run `python3 paperguard_app.py` in Terminal)*.
-2. **Windows**: Double-click `Start-PaperGuard-Win.bat`.
-3. Drag & drop your `.tex` / `.md` and `.bib` files (or click **Try Built-in Demo**), view the offline HTML report, or use the built-in **One-Click IDE Installer** tab.
+1. **macOS**: Download [PaperGuard-Lite-v2.5.0-macOS.dmg](https://github.com/paperguard-app/paperguard/releases/latest/download/PaperGuard-Lite-v2.5.0-macOS.dmg), drag **PaperGuard Lite.app** into Applications, and double-click to open the standalone native Mac desktop window *(first launch unsigned build: System Settings → Privacy & Security → Open Anyway)*.
+2. **Windows**: Download `PaperGuard-Lite-v2.5.0.zip`, extract, and double-click `Start-PaperGuard-Win.bat`.
+3. Drag & drop your `.tex` / `.md` and `.bib` files (or click **Try Built-in Demo**), view the offline HTML report, or use the built-in **One-Click IDE Installer** section.
 
 ### Option 2: Install into Antigravity, Claude Code, or Cursor (CLI)
 
