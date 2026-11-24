@@ -36,6 +36,7 @@ SCRIPTS_DIR = APP_ROOT / "paperguard-lite" / "scripts"
 LITE_SKILL_SRC = APP_ROOT / "paperguard-lite"
 RENDER_SCRIPT = SCRIPTS_DIR / "render_audit_ui.py"
 PRO_UPGRADE_URL = "https://zhangx2.gumroad.com/l/paperguard-pro"
+APP_ICON_DATA_URI = "data:image/png;base64,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"
 MAX_BODY_BYTES = 15 * 1024 * 1024  # 15 MiB cap per local request
 
 CURSOR_RULE_MANAGED = """---
@@ -397,6 +398,7 @@ try {{
   }}
 }} catch (_) {{}}
 </script>
+<link rel="icon" type="image/png" href="{APP_ICON_DATA_URI}">
 <title>PaperGuard Lite — Local Academic Audit App</title>
 <style>
 :root {{
@@ -728,7 +730,7 @@ footer {{
 <header>
   <div class="header-inner">
     <div class="brand">
-      <div class="brand-badge" aria-hidden="true">PG</div>
+      <img src="{APP_ICON_DATA_URI}" alt="" width="34" height="34" style="border-radius:8px;display:block">
       <div>
         <h1>PaperGuard Lite · Local App</h1>
         <div class="brand-sub">100% local loopback · Zero telemetry · Original files never modified</div>
@@ -1278,7 +1280,7 @@ def create_server(host: str = "127.0.0.1", port: int = 0) -> tuple[socketserver.
                 self._send_common_headers()
                 self.send_header(
                     "Content-Security-Policy",
-                    f"default-src 'self'; script-src 'nonce-{nonce}'; style-src 'unsafe-inline'; "
+                    f"default-src 'self'; img-src 'self' data:; script-src 'nonce-{nonce}'; style-src 'unsafe-inline'; "
                     "object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'",
                 )
                 self.send_header("Content-Type", "text/html; charset=utf-8")
